@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Mobile View */
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preptime {
+    width: 75%;
+    padding: 1rem 2.5rem;
+    border: 1px solid red;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
